@@ -56,17 +56,13 @@ class Personaje():
 
     
     def Historia(self):
-        if self.__raz == "Enano":
-            print("Los Enanos sitúan el comienzo de su historia en el despertar de los primeros de su raza,\ngobernados directamente por un panteón de dioses que caminaban entre ellos.\nDe estos, los más importantes son Grungni,Grimnir y Valaya,\ny los Enanos creen que descienden directamente de estos antepasados primigenios.")
-
-        if self.__raz == "Elfo":
-            print("Los Elfos se les considera seres con poderes mágicos y belleza sobrenatural que pueden ayudar o molestar a los humanos.")
-
-        if self.__raz == "Humano":
-            print("Los Humanos se les considera seres con inteligencia y con nula enpatia por lo que les rodia")
+        pass
 
     def victoria():
         pass
 
     def derrota():
+        pass
+
+    def Mensaje():
         pass
