@@ -8,13 +8,13 @@ class Enano(Personaje):
 
 
     def __str__(self):
-        return super().__str__() + "Clan: - {}".format(self.__cla)
+        return super().__str__() + " - Clan: - {}".format(self.__cla)
    
 
     def Getclan(self):
         return self.__cla
     
-    def Set(self, C):
+    def Setclan(self, C):
         self.__cla = C
 
    
@@ -23,10 +23,11 @@ class Enano(Personaje):
         print("Los Enanos sitúan el comienzo de su historia en el despertar de los primeros de su raza,\ngobernados directamente por un panteón de dioses que caminaban entre ellos.\nDe estos, los más importantes son Grungni,Grimnir y Valaya,\ny los Enanos creen que descienden directamente de estos antepasados primigenios.")
 
     def victoria():
-        pass
+        print("Lo bueno vienen en un frasco pequeño")
 
     def derrota():
-        pass
+        print("Ahhhhhh!!!")
 
-    def aumentarvida():
-        pass
+    def aumentarvida(n):
+        Enano.Setvida(Enano.Getvida() + n)
+        

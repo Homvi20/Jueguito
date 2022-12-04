@@ -22,10 +22,10 @@ class Humano(Personaje):
         print("Los Humanos se les considera seres con inteligencia y con nula enpatia por lo que les rodia")
 
     def victoria():
-        pass
+        print("Demonios soy muy bueno JaJaJa")
 
     def derrota():
-        pass
+        print("como osas ganarme!!\n[Cambia tu arma usuario]")
 
-    def superbono():
-        pass
+    def superbono(self,dañomas):
+        self.__dañ = (self.__dañ + dañomas)

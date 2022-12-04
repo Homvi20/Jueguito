@@ -8,7 +8,7 @@ class Elfo(Personaje):
 
 
     def __str__(self):
-        return super().__str__() + "Reino: - {}".format(self.__rei)
+        return super().__str__() + " - Reino: - {}".format(self.__rei)
 
 
     def Getreino(self):
@@ -22,10 +22,12 @@ class Elfo(Personaje):
         print("Los Elfos se les considera seres con poderes mágicos y belleza sobrenatural que pueden ayudar o molestar a los humanos.")
 
     def victoria():
-        pass
+        print("No puedo contra mi esta bestia")
 
     def derrota():
         pass
 
-    def quitavida():
-        pass
+    def quitavida(self, quitavid):
+       quitavid = (self.__vid * 0.1)
+       self.__vid = self.__vid - quitavid
+       

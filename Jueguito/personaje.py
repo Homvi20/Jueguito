@@ -44,7 +44,7 @@ class Personaje():
     def Setarma(self,A):
         self.__arm = A
 
-    def Set(self,V):
+    def Setvida(self,V):
         self.__vid = V
 
     def Setdaño(self,D):
